@@ -1,0 +1,27 @@
+# API для предсказания на основе BERT
+## Эндпоинты
+
+1. **GET /health**
+
+Ответ:
+{
+    "status": "OK"
+}
+
+2. **POST /predict**
+
+{
+  "text": "I love this product"
+}
+Ответ:
+{
+    "prediction": 1
+}
+
+{
+  "text": "I hate this product"
+}
+Ответ:
+{
+    "prediction": 0
+}

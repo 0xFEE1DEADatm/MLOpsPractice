@@ -1,3 +1,12 @@
+# ML Model Microservice (FastAPI + Docker)
+Микросервис на FastAPI, разворачивающий обученную модель scikit-learn для классификации текстов.
+
+- Python
+- FastAPI
+- scikit-learn
+- Docker
+
+
 # API для предсказания на основе BERT
 ## Эндпоинты
 
